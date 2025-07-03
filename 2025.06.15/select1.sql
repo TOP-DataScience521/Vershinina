@@ -4,6 +4,7 @@
 select name 
 from country 
 where continent in ('Europe', 'Asia');
+*либо* where continent = 'Europe' or continent = 'Asia';  
 
 2. Вывести названия регионов и стран, в которых ожидаемая продолжительность жизни меньше пятидесяти лет
 select name, region 
